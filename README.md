@@ -13,5 +13,5 @@
 # Note: Cmake uses CMakeLists.txt to generate the Visual Studio solution on Windows
 #      The same CMakeLists.txt is used by CMake to generate Makefiles on Linux etc.
 # CMake == "very nice cross platform code generation!"
-# This is mu first CMake project. Many more to come to soon! 
+# This is my first CMake project. Many more to come to soon! 
 
