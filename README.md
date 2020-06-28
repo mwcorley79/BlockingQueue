@@ -1,8 +1,8 @@
-# BlockingQueue build test on Windows 10
-# Prereqs.. 
-# Install CMake for Windows: https://cmake.org/download/   
-# Visual Studio 2019 (installed, using as default generator)
-# Steps for testing...
+BlockingQueue build test on Windows 10
+Prereqs.. 
+Install CMake for Windows: https://cmake.org/download/   
+Visual Studio 2019 (installed, using as default generator)
+Steps for testing...
 git clone https://github.com/mwcorley79/BlockingQueue.git
 cd BlockingQueue
 mkdir build
