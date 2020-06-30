@@ -28,6 +28,7 @@ Steps for testing on Linux
   <li> mkdir lbuild </li>
   <li> cd lbuild </li>
   <li> cmake .. -DCMAKE_INSTALL_PREFIX=../_install </li>
+  <li> make all </li>
  </ol>
 
 <b> CMake == "very nice cross platform code generation!" <br>
