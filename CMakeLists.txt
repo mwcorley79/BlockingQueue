@@ -19,9 +19,10 @@ add_definitions(-DTEST_BLOCKING_QUEUE)
 
 # generate the Utility test stub target (executable test) from the SOURCES
 add_executable(BlockingQueueTest ${SOURCES})
-
-# link pthread to the BlockingQueueTest target
-target_link_libraries (BlockingQueueTest pthread)
+if (UNIX)
+    # link pthread to the BlockingQueueTest target
+    target_link_libraries (BlockingQueueTest pthread)
+endif (UNIX)
 
 # install the statis and shared libs into the bin directory of the install directory
 install(TARGETS BlockingQueueStatic BlockingQueue DESTINATION lib)
