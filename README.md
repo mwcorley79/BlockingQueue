@@ -9,7 +9,7 @@
 # cd wbuild
 # cmake .. -DCMAKE_INSTALL_PREFIX=../_install  
 # start Visual Studio 2019, and open BlockingQueue.sln (solution) in the wbuild folder  
-#   -- note: remove pthread.lib for the linker->Input-Additional Dependencies from the BlockingQueueTest project
+#   -- note: remove pthread.lib for the linker->Input->Additional Dependencies from the BlockingQueueTest project
 
 # build/run/debug BlockingQueueTest project as usual with VS 2019  
 # Note: Cmake uses CMakeLists.txt to generate the Visual Studio solution on Windows
