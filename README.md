@@ -14,8 +14,8 @@
     <li>start Visual Studio 2019, and open BlockingQueue.sln (solution) in the wbuild folder</li>  
     <li>build/run/debug BlockingQueueTest project as usual with VS 2019 </li> 
    </ol>
-# Note: Cmake uses CMakeLists.txt to generate the Visual Studio solution on Windows
-# *** The same CMakeLists.txt is used by CMake to generate Makefiles on Linux (see below) ***
+ <b> Note: Cmake uses CMakeLists.txt to generate the Visual Studio solution on Windows <br>
+  *** The same CMakeLists.txt is used by CMake to generate Makefiles on Linux (see below) *** </b>
  Prereqs (Linux)
   <ol>
       <li> install cmake 3.10 or greater (debain based:  sudo apt-get install cmake) </li>
@@ -30,5 +30,6 @@ Steps for testing on Linux
   <li> cmake .. -DCMAKE_INSTALL_PREFIX=../_install </li>
  </ol>
 
-# CMake == "very nice cross platform code generation!"
-# This is my first CMake project. Many more to come to soon! 
+<b> CMake == "very nice cross platform code generation!" <br>
+ This is my first CMake project. Many more to come to soon! 
+  </b>
