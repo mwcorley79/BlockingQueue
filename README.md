@@ -18,7 +18,7 @@
   *** The same CMakeLists.txt is used by CMake to generate Makefiles on Linux (see below) *** </b>
  Prereqs (Linux)
   <ol>
-      <li> install cmake 3.10 or greater (debain based:  sudo apt-get install cmake) </li>
+      <li> install cmake 3.10 or greater (debian based:  sudo apt-get install cmake) </li>
       <li> toolchain: gcc/g++ etc.</li>
   </ol>
 Steps for testing on Linux
